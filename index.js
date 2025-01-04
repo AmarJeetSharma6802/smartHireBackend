@@ -13,7 +13,7 @@ dotenv.config()
 app.use(cors({
     // origin: 'http://localhost:5173',
     
-    origin: 'https://smart-hire-fronted-xu8w.vercel.app',
+    origin: 'https://smart-hire-fronted.vercel.app',
     credentials: true, 
 }));
 app.use(express.json())
