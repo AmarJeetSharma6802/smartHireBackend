@@ -11,7 +11,8 @@ import {verifyJwt} from "./middleware/auth.middlewares.js"
 const app = express()  
 dotenv.config()
 app.use(cors({
-    origin: 'http://localhost:5173',
+    // origin: 'http://localhost:5173',
+    origin: 'https://smart-hire-fronted-m3bzsmqg7-amarjeetsharma6802s-projects.vercel.app',
     // origin: 'https://interview-task-swart.vercel.app',
     credentials: true, 
 }));
